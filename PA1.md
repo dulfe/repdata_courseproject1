@@ -183,5 +183,5 @@ ggplot(meanStepsPerWeekDayType, aes(x=interval, y=mean)) +
 
 ![](PA1_files/figure-html/unnamed-chunk-16-1.png) 
 
-#### Author: Daniel Ulfe
+#### Author: dulfe
 #### Date: 2015-10-28
