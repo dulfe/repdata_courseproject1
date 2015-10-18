@@ -44,7 +44,7 @@ qplot(totalStepsPerDate$total
       , col      = I("black")) 
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-5-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-5-1.png) 
 
 ### Average and Median daily steps
 
@@ -77,7 +77,7 @@ ggplot(meanStepsByInterval, aes(x = interval, y = mean, group = 1)) +
     ggtitle("Steps per Time Interval\r\n(based on daily average)")
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-7-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-7-1.png) 
 
 ### Finding the Highest average of Steps
 
@@ -136,7 +136,7 @@ qplot(totalStepsPerDate$total
       , col = I("black")) 
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-12-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
 
 ### Report new Mean and Median, the Mean value is exactly the same as before, because we used Mean values for NA values, the Median has increase a little.
 
@@ -181,7 +181,7 @@ ggplot(meanStepsPerWeekDayType, aes(x=interval, y=mean)) +
     ylab("Number of Steps")
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-16-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-16-1.png) 
 
 #### Author: dulfe
 #### Date: 2015-10-28
